@@ -1,0 +1,112 @@
+@font-face{
+    font-family:poppins;
+    src:url(Font/Poppins-Regular.ttf);
+}
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    display: flex;
+    margin: 50px 25px;
+}
+.text-content{
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 40px 20px;
+}
+h1{
+    font-size: 40px;
+}
+.header p{
+    font-weight: 300;
+    color: gray;
+    margin: 45px 0;
+}
+.text-orange{
+    color: orange;
+}
+.half-width{
+    width: 50%;
+}
+.banner-img{
+    width: 90%;
+    margin: 5%;
+}
+.fancy-button{
+    text-decoration: none;
+    padding: 12px 20px;
+    color: white;
+    border-radius: 40px;
+    background-image: linear-gradient(to right,orange,tomato);
+    font-weight: 700;
+    box-shadow: 0 0 10px 0.01px orange;
+}
+.text-content p{
+    font-weight: 500;
+    margin: 35px 0;
+}
+h2{
+    font-size: 35px;
+}
+.about-me{
+    background-image: url(../image/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+    width: 100%;
+}
+.about-me img{
+    width: 50%;
+    height: 95%;
+    margin:0 25%;
+    margin-top:5%;
+}
+.foods{
+    display: block;
+}
+.flexible-div{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+p{
+    font-weight: 300;
+    margin: 10px 0;
+}
+.card{
+    box-shadow: 0 0 10px 0.1px gray;
+    border-radius: 30px;
+    width: 45%;
+    margin: 2.5%;
+    padding: 2.5%;
+}
+p.text-center{
+    width: 65%;
+    margin: 5px auto;
+}
+.get-center{
+    width: 80%;
+    margin: 40px auto;
+    box-shadow: 0 0 10px 0.01px #bcbcbc;
+    border-radius: 25px;
+}
+.get-center div{
+    margin: 15px auto;
+    text-align: center;
+}
+footer{
+    background-color: #000000;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0 0 0;
+    margin-top: 100px;
+}
